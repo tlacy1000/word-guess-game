@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Word Guess Game</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width, initial-scale=1.0" />
+</head>
+
+<body>
+  
+	
+<header>
+	<div class="page-header">
+    <h1>Word Guess Game </h1>
+    <h3> Guess what word we're thinking of!</h3>
+  </div>
+
+
+  <div>
+      
+      <p id= "Wins"> Wins: </p>
+      <p id= "losses"> Losses: </p>
+      <p id=  "Guesses left" > Guesses Left: </p>
+      <p id = "guesses so far">Your guesses so far: </p> 
+
+  </div>
+</header>
+
+</body>
+ <script>
+
+
+//Things we'll need
+
+
+//A word bank
+const words = ['pusheen', 'pirate', '', '']
+
+//randomly guessing the words
+let randomWord = Math.floor(Math.random() * words.length);
+let chosenWord = words[random];
+let rightWord = [];
+let wrongWord = [];
+let underScore = [];
+
+
+//A way to keep track of how many guesses/wins/losses have occured
+
+
+
+//A way to reset the game when the player has won/lost
+
+
+function reset() {
+  console.log("test");
+  
+}
+
+
+
+
+
+
+
+
+
+ 
+  </script>
+
+
+</html>
